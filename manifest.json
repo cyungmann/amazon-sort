@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon Sort",
+  "version": "0.1.0",
+  "description": "Sorts Amazon tabs by number of reviews.",
+  "background": {
+    "scripts": [
+      "background-script.js"
+    ]
+  },
+  "permissions": [
+    "*://*.amazon.com/*",
+    "contextMenus",
+    "tabs"
+  ]
+}
