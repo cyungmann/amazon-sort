@@ -1,0 +1,17 @@
+{
+  "name": "amazon-sort",
+  "version": "0.0.1",
+  "description": "Firefox extension to sort Amazon tabs by number of reviews",
+  "repository": "git@github.com:cyungmann/amazon-sort.git",
+  "author": "Chris Yungmann <yungmann.chris@gmail.com>",
+  "license": "0BSD",
+  "private": false,
+  "devDependencies": {
+    "web-ext": "^5.4.1"
+  },
+  "scripts":{
+    "start": "web-ext run",
+    "build": "web-ext build --overwrite-dest",
+    "lint": "web-ext lint"
+  }
+}
